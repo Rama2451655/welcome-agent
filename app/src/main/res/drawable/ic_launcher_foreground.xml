@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- outer voice ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#6622D3C5"
+        android:strokeWidth="2.5"
+        android:pathData="M25,54 a29,29 0 1,0 58,0 a29,29 0 1,0 -58,0" />
+    <!-- inner voice ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#E622D3C5"
+        android:strokeWidth="3"
+        android:pathData="M32,54 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0" />
+    <!-- marigold core -->
+    <path
+        android:fillColor="#FFFFB02E"
+        android:pathData="M39,54 a15,15 0 1,0 30,0 a15,15 0 1,0 -30,0" />
+    <!-- microphone -->
+    <group
+        android:translateX="43.2"
+        android:translateY="43.2"
+        android:scaleX="0.9"
+        android:scaleY="0.9">
+        <path
+            android:fillColor="#FF1B1340"
+            android:pathData="M12,14c1.66,0 3,-1.34 3,-3V5c0,-1.66 -1.34,-3 -3,-3S9,3.34 9,5v6c0,1.66 1.34,3 3,3z M17.3,11c0,3 -2.54,5.1 -5.3,5.1S6.7,14 6.7,11H5c0,3.41 2.72,6.23 6,6.72V21h2v-3.28c3.28,-0.48 6,-3.3 6,-6.72h-1.7z" />
+    </group>
+</vector>
